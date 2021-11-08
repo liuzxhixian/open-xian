@@ -115,7 +115,7 @@ public class GirlImgPipeline {
                 new ThreadFactory() {
                     public Thread newThread(Runnable r) {
                         Thread thread = new Thread(r);
-                        thread.setName("gill-image-download-thread");
+                        thread.setName("girl-image-download-thread");
                         return thread;
                     }
                 });
